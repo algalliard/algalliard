@@ -405,24 +405,19 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-programa-momentum-csic",
+          title: 'Programa MOMENTUM - CSIC',
+          description: "Proyecto Momentum - Identificación de determinantes genéticos y epigenéticos en la resistencia al estrés epigenético en cáncer.",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/2_project/";
             },},{id: "projects-uniti-unification-of-treatments-and-interventions-for-tinnitus-patients",
           title: 'UNITI Unification of treatments and Interventions for Tinnitus patients',
           description: "Participación en el Proyecto Europeo UNITI.",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-trasfondo-genético-de-la-enfermedad-de-ménière",
+          title: 'Trasfondo genético de la enfermedad de Ménière',
+          description: "Participación en proyectos de investigación para la búsqueda de marcadores genéticos relacionados con la aparición y evolución de la enfermedad de Ménière.",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/4_project/";
             },},{id: "projects-project-5",
@@ -430,26 +425,11 @@ ninja.data = [{
           description: "a project with a background image",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/9_project/";
             },},{
         id: 'social-discord',
         title: 'Discord',
