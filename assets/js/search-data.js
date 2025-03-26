@@ -451,18 +451,46 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/9_project/";
             },},{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/1025023211529842788", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%6C%76%61%72%6F.%67%61%6C%6C%65%67%6F@%63%61%62%69%6D%65%72.%65%73", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/algalliard", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-6068-8965", "_blank");
+        },
+      },{
+        id: 'social-publons',
+        title: 'Publons',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://publons.com/a/NnBP1C0AAAAJ/", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile//", "_blank");
         },
       },{
         id: 'social-rss',
@@ -476,14 +504,21 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=NnBP1C0AAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-scopus',
+        title: 'Scopus',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.scopus.com/authid/detail.uri?authorId=5719208312", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/gallegomics", "_blank");
         },
       },{
       id: 'light-theme',
