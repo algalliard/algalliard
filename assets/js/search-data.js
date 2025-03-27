@@ -420,9 +420,9 @@ ninja.data = [{
           description: "Participación en proyectos de investigación para la búsqueda de marcadores genéticos relacionados con la aparición y evolución de la enfermedad de Ménière.",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/4_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-estudio-permanente-de-funcionamiento-operativo-de-un-gato-en-particular",
+          title: 'Estudio permanente de funcionamiento operativo de un gato en particular',
+          description: "También conocido como Mochi",
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/7_project/";
             },},{
