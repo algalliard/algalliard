@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/algalliard/teaching/";
           },
-        },{id: "post-a-simple-test-post",
-        
-          title: "A simple test post",
-        
-        description: "Post test",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/algalliard/blog/2025/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
