@@ -426,13 +426,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/algalliard/projects/7_project/";
             },},{
-        id: 'social-discord',
-        title: 'Discord',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.com/users/1025023211529842788", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
