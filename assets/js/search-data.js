@@ -7,41 +7,41 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/algalliard/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/algalliard/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-publicaciones",
           title: "publicaciones",
           description: "Publicaciones científicas por catogorías organizadas por fecha de publicación.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/algalliard/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-proyectos",
           title: "proyectos",
           description: "Lista de proyectos científicos liderados y en los que he participado.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/algalliard/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-docencia-y-divulgación",
           title: "docencia y divulgación",
           description: "Docencia y eventos de divulgación impartidos en universidades y organizaciones públicas.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/algalliard/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/algalliard/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -49,7 +49,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/algalliard/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -57,22 +57,22 @@ ninja.data = [{
           title: 'Programa MOMENTUM - CSIC',
           description: "Proyecto Momentum - Identificación de determinantes genéticos y epigenéticos en la resistencia al estrés epigenético en cáncer.",
           section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-uniti-unification-of-treatments-and-interventions-for-tinnitus-patients",
           title: 'UNITI Unification of treatments and Interventions for Tinnitus patients',
           description: "Participación en el Proyecto Europeo UNITI.",
           section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-trasfondo-genético-de-la-enfermedad-de-ménière",
           title: 'Trasfondo genético de la enfermedad de Ménière',
           description: "Participación en proyectos de investigación para la búsqueda de marcadores genéticos relacionados con la aparición y evolución de la enfermedad de Ménière.",
           section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-estudio-permanente-de-funcionamiento-operativo-de-un-gato-en-particular",
           title: 'Estudio permanente de funcionamiento operativo de un gato en particular',
           description: "También conocido como Mochi",
           section: "Projects",handler: () => {
-              window.location.href = "/algalliard/projects/7_project/";
+              window.location.href = "/projects/7_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -113,7 +113,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/algalliard/feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
